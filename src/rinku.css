@@ -1,0 +1,32 @@
+#rinku-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(208, 208, 208, 0.4);
+    border-radius: 0 0 0 6px;
+}
+
+#rinku-container:hover {
+    background: rgba(208, 208, 208, 1.0);
+}
+
+.rinku-icon-container {
+    display: inline-block;
+    opacity: 0.4;
+}
+
+.rinku-icon-container:hover {
+    opacity: 1.0;
+}
+
+.rinku-icon {
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+}
+
+@media print {
+    #rinku-container {
+        display: none;
+    }
+}

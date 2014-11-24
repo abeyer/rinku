@@ -1,0 +1,20 @@
+{
+  "name": "rinku",
+  "version": "1.0.0",
+  "description": "Expose head <link> tags as toolbar",
+  "main": [
+    "dist/rinku.min.js",
+    "dist/rinku.min.css"
+  ],
+  "authors": [
+    "Andrew Beyer <beyer.andrew@gmail.com>"
+  ],
+  "license": "GPLv3+",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sample.html"
+  ]
+}
